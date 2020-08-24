@@ -1,0 +1,14 @@
+# Ponto de entrada da API
+  type Query {
+    usuarios : [Usuarios]
+    ola: String
+    dateTime: String
+    usuarioLogado: Usuarios
+    featuredProduct: Produtos
+    featuredProducts: [Produtos]
+    megaSena: [Int]
+    usuario(id: ID): Usuarios
+    perfils: [Perfil]
+    perfil(id : ID): Perfil
+
+  }
